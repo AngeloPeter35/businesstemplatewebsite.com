@@ -14,3 +14,7 @@ CSS3: Handles the design and layout with flexbox for responsiveness.
 JavaScript: Provides form validation and interactivity across the pages.
 Usage:
 Clone or download the repository to use it as a template for your business or as a starting point for developing your own site. All the code is well-commented for ease of understanding and modification.
+
+clone with the following URL>
+
+https://github.com/AngeloPeter35/businesstemplatewebsite.com.git
