@@ -1,79 +1,234 @@
-/* General styles for the website */
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
 }
 
-/* Header section styles */
 header {
     background-color: #333;
     color: white;
-    padding: 10px 0;
+    padding: 15px;
     text-align: center;
 }
 
-/* Navigation menu styles */
-header nav ul {
-    list-style: none;
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
     padding: 0;
 }
 
-header nav ul li {
+nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin-right: 20px;
 }
 
-header nav ul li a {
+nav ul li a {
     color: white;
     text-decoration: none;
 }
 
-/* Main content area */
-main {
-    padding: 20px;
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f0f8ff;
     text-align: center;
+    padding: 50px;
 }
 
-/* Footer styles */
-footer {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+.hero h2 {
+    font-size: 2.5rem;
 }
 
-/* Form styles (for the contact page) */
-form {
-    margin: 0 auto;
-    max-width: 500px;
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
 }
 
-label, input, textarea {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-input, textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
+.hero button {
     padding: 10px 20px;
     background-color: #28a745;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #218838;
+/* Featured Services */
+.featured-services {
+    padding: 40px;
+    text-align: center;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.service-card {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+}
+
+.service-card h3 {
+    margin: 15px 0 10px;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 40px;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+.testimonial cite {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Call to Action */
+.cta {
+    background-color: #17a2b8;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.cta button {
+    padding: 10px 20px;
+    background-color: #ffc107;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* About Page Styles */
+.about-company, .our-mission, .our-team {
+    padding: 40px;
+    text-align: center;
+}
+
+.our-team {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-member {
+    width: 30%;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+}
+
+.team-member h3 {
+    margin-top: 15px;
+}
+
+/* Services Page Styles */
+.detailed-services {
+    padding: 40px;
+}
+
+.service-item {
+    margin-bottom: 20px;
+}
+
+.service-item h3 {
+    color: #17a2b8;
+}
+
+/* Contact Page Styles */
+.contact-info {
+    text-align: center;
+    padding: 40px;
+}
+
+.contact-form {
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-form form {
+    display: inline-block;
+    text-align: left;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-details {
+    padding: 20px;
+    text-align: center;
+}
+
+/* FAQ Page Styles */
+.faq {
+    padding: 40px;
+    text-align: center;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    color: #17a2b8;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    margin: 0;
 }
